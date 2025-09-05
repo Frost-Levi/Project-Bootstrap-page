@@ -2,14 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Strap.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Strap.jpg');
     background-size: cover;
-    
 }
-span {
+.menu{
+    color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     text-align: center;
+    margin-top: 140px;
+}
+.menu h1 {
+    font-size: 100px;
+    margin: 0;
+}
+.menu p {
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+.stats {
+    font-size: 25px;
+    margin-top: 20px;
 }
